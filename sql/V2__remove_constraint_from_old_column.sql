@@ -1,0 +1,6 @@
+ALTER TABLE beer 
+ADD CONSTRAINT beer_name_not_null CHECK (name IS NOT NULL)
+NOT VALID;
+
+ALTER TABLE beer 
+ALTER COLUMN title DROP NOT NULL;

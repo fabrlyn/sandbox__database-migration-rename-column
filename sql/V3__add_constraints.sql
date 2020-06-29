@@ -1,0 +1,5 @@
+ALTER TABLE beer 
+VALIDATE CONSTRAINT beer_name_not_null;
+
+ALTER TABLE beer
+DROP COLUMN title;

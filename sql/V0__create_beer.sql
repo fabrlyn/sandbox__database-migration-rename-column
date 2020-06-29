@@ -1,0 +1,5 @@
+CREATE TABLE beer
+(
+  id UUID PRIMARY KEY,
+  title VARCHAR NOT NULL
+);
